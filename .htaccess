@@ -1,0 +1,5 @@
+RewriteEngine On
+ErrorDocument 404 /vues/vuePageNotFound.php
+
+RewriteRule ^page-([0-9A-z]+) index.php?action=$1
+

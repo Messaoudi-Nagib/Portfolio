@@ -1,0 +1,189 @@
+.titlec{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+}
+
+
+.souti{
+    font-family: 'Pattaya', sans-serif;
+    font-size: 25px;
+}
+
+body{
+    @import url('https://fonts.googleapis.com/css?family=Lilita+One');
+}
+
+a:hover{
+text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.footer{
+    background-color: white;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.2rem;
+}
+
+.hvr-shutter-out-horizontal:before{
+    border-radius:5px;
+}
+
+.card-ctm{
+    padding-bottom: 70px;
+}
+
+.tile-ctm{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.title-comp{
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+
+}
+
+
+@media (max-width: 767.98px) {
+    .sport-sante {
+        width: 400px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .sport-sante {
+        width: 600px;
+        height: 400px;
+    }
+}
+
+u{
+    margin-top: 4px;
+}
+
+.loader-wrapper{
+    z-index: 4;
+    width:100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    background: rgb(180,95,58);
+    background: linear-gradient(90deg, rgba(180,95,58,1) 0%, rgba(253,29,29,1) 46%, rgba(185,69,252,1) 100%);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    animation-name:example;
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+
+}
+
+.canvas{
+background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,0.6558998599439776) 0%, rgba(252,70,107,0.3897934173669467) 100%);
+}
+
+
+.comp {
+    background: rgb(251, 233, 63);
+    background: radial-gradient(circle, rgba(251, 233, 63, 0.6643032212885154) 25%, rgba(99, 176, 75, 0.5074404761904762) 100%);
+}
+
+.contact {
+    background: rgb(255,79,70);
+    background: radial-gradient(circle, rgba(255,79,70,0.7511379551820728) 7%, rgba(198,87,16,0.6362920168067228) 96%);
+}
+
+.veille{
+    background: rgb(255,79,70);
+    background: linear-gradient(90deg, rgba(255,79,70,0.5438550420168067) 1%, rgba(32,192,139,0.48503151260504207) 46%, rgba(143,170,20,0.5494572829131652) 100%);
+}
+.stage{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,0.7987570028011204) 0%, rgba(253,29,29,0.6138830532212884) 50%, rgba(252,176,69,0.7455357142857143) 100%);
+}
+
+.veilleJs{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,0.5326505602240896) 0%, rgba(29,82,253,0.5046393557422969) 50%, rgba(69,252,102,0.41780462184873945) 100%);
+}
+
+.navbar{
+	background-image: rgba(0,0,0,1);
+}
+
+.nav-link{
+    font-size: 15px;
+}
+@keyframes example {
+    from {background: rgb(180,95,58);
+        background: linear-gradient(90deg, rgba(180,95,58,1) 0%, rgba(253,29,29,1) 46%, rgba(185,69,252,1) 100%);}
+    to {background: rgb(238,174,202);
+        background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);}
+}
+
+
+@keyframes Animation{
+    0%{
+        opacity: 0;
+        transform: scale(0.5);
+
+    }
+    43%{
+        opacity: 0.5;
+        transform: scale(1.5);
+
+    }
+    49%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes lo {
+    0% {
+        transform :scale(0.5);
+    }
+    50%{
+        transform: scale(1.5);rotate(0.5turn);
+    }
+    100%{
+        transform: scale(0.5);rotate(0.5turn);
+    }
+
+}
+
+.ico{
+    animation: Animation 2s linear alternate;
+    animation-delay: 2s;
+
+    animation-fill-mode: forwards;
+}
+.ico::after{
+    opacity: 1;
+}
+
+
+
+@keyframes logo{
+    0%{
+        transform: translateY(20%);
+    }
+    42%{
+        transform: translateY(0);
+    }
+    99%{
+        transform: translateY(20%);
+    }
+}
+
+.logo:hover{
+    animation: logo 1s infinite 0s linear;
+}
