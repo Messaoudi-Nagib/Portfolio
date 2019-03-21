@@ -38,7 +38,7 @@
 					</div>
 					<hr>
 
-					<h4 class=" souti card-title has-text-centered" style="font-size: 60px;">Mission : </h4>
+					<h2 class=" souti card-title has-text-centered" style="font-size:60px">Cahier des charges : </h2>
 					<p class="card-text" style="font-size: 25px;text-indent: 75px;">Réaliser une nouvelle partie du site du Cdos, <strong>Sport Santé 42 </strong>.<br>
 						Sport Santé 42 à pour objectif de remettre au sport les personnes souffrantes de maladies chroniques (cancer, maladies pulmonaires, obèsité...).
 						La partie la plus importante du site (<em>ci-dessous</em>) permet aux personnes de trouver une activité proche de chez eux grâce à un moteur de recherche interne.
@@ -89,7 +89,7 @@
 					</div>
 					<hr>
 
-					<h4 class=" souti card-title has-text-centered" style="font-size: 60px;" >Missions : </h4>
+					<h4 class=" souti card-title has-text-centered" style="font-size:60px" >Cahier des charges : </h4>
 					<h4 class="souti text-muted" style="font-size: 40px">Migration version de Php ( et résolution de bug mineurs)</h4>
 					<p class="card-text" style="font-size: 25px;text-indent: 75px;">
 						Migration du site de gestion (ERP) de la version <a href="http://php.net/supported-versions.php" style="text-decoration: none;" target="_blank">5.6</a> de php,

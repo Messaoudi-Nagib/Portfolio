@@ -21,6 +21,12 @@ a{
     text-decoration: none;
 }
 
+.title-flotte{
+    animation-name:flotte;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+}
+
 .footer{
     background-color: white;
     font-family: 'Oswald', sans-serif;
@@ -86,8 +92,8 @@ u{
 }
 
 .canvas{
-background: rgb(63,94,251);
-background: radial-gradient(circle, rgba(63,94,251,0.6558998599439776) 0%, rgba(252,70,107,0.3897934173669467) 100%);
+    background: rgb(255,141,191);
+    background: radial-gradient(circle, rgba(255,141,191,0.7175245098039216) 0%, rgba(255,41,41,0.31976540616246496) 31%, rgba(233,163,148,0.6502976190476191) 100%);
 }
 
 
@@ -169,6 +175,27 @@ background: radial-gradient(circle, rgba(63,94,251,0.6558998599439776) 0%, rgba(
 .ico::after{
     opacity: 1;
 }
+
+@keyframes flotte{
+    0%{
+        transform: translateY(0px);
+    }
+    42%{
+        transform: translateY(5px);
+        transform: scale(1.1);
+    }
+    60%{
+        transform: scale(0.9);
+    }
+    80%{
+        transform: translateY(-5px);
+        transform: scale(1);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+    }
+
 
 
 

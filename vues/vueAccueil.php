@@ -27,14 +27,14 @@
 		<div class="tile is-child notification is-dark shadow">
 			<article class="tile is-child notification is-dark">
 				<p class="title is-size-3">
-					Messaoudi Nagib, étudiant en 2ème année de <strong>BTS Services Informatiques aux Organisations</strong>.
+					Messaoudi Nagib, étudiant en 2ème année de <strong>BTS Services Informatiques aux Organisations</strong> à Saint-Etienne.
 				</p>
 			</article>
 		</div>
 		<div class="tile is-child notification is-grey shadow">
 			<article class="tile is-child notification is-grey is-full">
 				<p class="title">
-					Mes centres d'intérets :
+					Ce que j' <i class="title-flotte far fa-heart"></i> :
 				</p>
 				<p class="tile-body is-size-4"><i class="fas fa-music fa-2x"></i> Création de musiques et <a href="https://fr.wikipedia.org/wiki/Musique_assist%C3%A9e_par_ordinateur" target="_blank">MAO</a>  </p>
 				<hr class"my-4">
